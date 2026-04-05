@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+  <title id="title">Warm Dark sunset icon with darker lower dunes</title>
+  <desc id="desc">The original Warm Dark sunset icon with the lower landscape pushed darker.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8f2c2f"/>
+      <stop offset="34%" stop-color="#b63b34"/>
+      <stop offset="72%" stop-color="#e65825"/>
+      <stop offset="100%" stop-color="#ff8d32"/>
+    </linearGradient>
+    <radialGradient id="vignette" cx="50%" cy="44%" r="74%">
+      <stop offset="0%" stop-color="#17130D" stop-opacity="0"/>
+      <stop offset="72%" stop-color="#17130D" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#17130D" stop-opacity="0.22"/>
+    </radialGradient>
+    <radialGradient id="sunGlow" cx="50%" cy="72%" r="64%">
+      <stop offset="0%" stop-color="#ffd46e" stop-opacity="0.34"/>
+      <stop offset="58%" stop-color="#e65825" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#e65825" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="sun" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffd46e"/>
+      <stop offset="100%" stop-color="#ff9b2f"/>
+    </linearGradient>
+    <radialGradient id="sunCore" cx="50%" cy="28%" r="54%">
+      <stop offset="0%" stop-color="#fff2bf" stop-opacity="0.4"/>
+      <stop offset="68%" stop-color="#fff2bf" stop-opacity="0.08"/>
+      <stop offset="100%" stop-color="#fff2bf" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="dune2" x1="0" y1="350" x2="0" y2="392" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#35302a" stop-opacity="0.14"/>
+      <stop offset="30%" stop-color="#35302a" stop-opacity="0.54"/>
+      <stop offset="100%" stop-color="#35302a" stop-opacity="0.86"/>
+    </linearGradient>
+    <linearGradient id="dune3" x1="0" y1="388" x2="0" y2="436" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#272420" stop-opacity="0.16"/>
+      <stop offset="34%" stop-color="#272420" stop-opacity="0.62"/>
+      <stop offset="100%" stop-color="#272420" stop-opacity="0.94"/>
+    </linearGradient>
+    <linearGradient id="dune4" x1="0" y1="426" x2="0" y2="488" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#17130D" stop-opacity="0.9"/>
+      <stop offset="34%" stop-color="#17130D" stop-opacity="0.96"/>
+      <stop offset="100%" stop-color="#17130D" stop-opacity="1"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="url(#sky)"/>
+  <rect x="24" y="24" width="464" height="464" rx="108" fill="url(#vignette)"/>
+
+  <ellipse cx="272" cy="316" rx="156" ry="112" fill="url(#sunGlow)"/>
+  <g opacity="0.99">
+    <circle cx="274" cy="312" r="132" fill="url(#sun)"/>
+    <circle cx="274" cy="312" r="132" fill="url(#sunCore)"/>
+  </g>
+
+  <path
+    d="M24 322C78 342 122 346 168 338C214 329 250 316 300 318C352 321 392 340 442 350C459 353 473 355 488 355V488H24Z"
+    fill="#3a3530"
+  />
+  <path
+    d="M24 356C74 345 120 344 174 353C228 362 274 377 328 370C382 364 422 347 470 342C477 341 483 341 488 341V488H24Z"
+    fill="url(#dune2)"
+  />
+  <path
+    d="M24 392C80 375 130 371 188 380C244 389 288 404 340 402C396 400 438 384 488 376V488H24Z"
+    fill="url(#dune3)"
+  />
+  <path
+    d="M24 430C82 410 138 405 196 414C250 422 293 438 344 438C400 438 442 424 488 416V488H24Z"
+    fill="url(#dune4)"
+  />
+</svg>

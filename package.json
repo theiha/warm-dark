@@ -1,0 +1,55 @@
+{
+  "name": "warm-dark",
+  "displayName": "Warm Dark",
+  "description": "A warm, low-contrast dark theme with soft syntax colors.",
+  "version": "1.0.0",
+  "publisher": "theiha",
+  "license": "GPL-3.0-or-later",
+  "icon": "images/icon.png",
+  "markdown": "github",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theiha/warm-dark.git"
+  },
+  "homepage": "https://github.com/theiha/warm-dark",
+  "bugs": {
+    "url": "https://github.com/theiha/warm-dark/issues"
+  },
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "color-theme",
+    "dark-theme",
+    "warm",
+    "low-contrast",
+    "cozy",
+    "copper",
+    "soft",
+    "dark",
+    "vscode",
+    "vscodium"
+  ],
+  "galleryBanner": {
+    "color": "#272420",
+    "theme": "dark"
+  },
+  "contributes": {
+    "themes": [
+      {
+        "label": "Warm Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/warm-dark.json"
+      }
+    ]
+  },
+  "scripts": {
+    "package:vsix": "vsce package",
+    "publish:vscode": "vsce publish",
+    "publish:openvsx": "npx ovsx publish"
+  }
+}

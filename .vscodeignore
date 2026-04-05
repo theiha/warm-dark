@@ -1,0 +1,8 @@
+.direnv/**
+.git/**
+.gitignore
+.DS_Store
+.envrc
+flake.nix
+flake.lock
+showcase/**
