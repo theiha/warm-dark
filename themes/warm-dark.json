@@ -16,8 +16,27 @@
     "editorIndentGuide.background1": "#3b3b3b",
     "editorIndentGuide.activeBackground1": "#606366",
     "editorWhitespace.foreground": "#3b3b3b",
-    "editorBracketMatch.background": "#e6582565",
+    "editorBracketMatch.background": "#c07a5855",
     "editorBracketMatch.border": "#00000000",
+    "editorBracketHighlight.foreground1": "#6da0be",
+    "editorBracketHighlight.foreground2": "#e4c472",
+    "editorBracketHighlight.foreground3": "#9e80b3",
+    "editorBracketHighlight.foreground4": "#6da0be",
+    "editorBracketHighlight.foreground5": "#e4c472",
+    "editorBracketHighlight.foreground6": "#9e80b3",
+    "editorBracketHighlight.unexpectedBracket.foreground": "#c75450",
+    "editorBracketPairGuide.background1": "#6da0be30",
+    "editorBracketPairGuide.background2": "#e4c47230",
+    "editorBracketPairGuide.background3": "#9e80b330",
+    "editorBracketPairGuide.background4": "#6da0be30",
+    "editorBracketPairGuide.background5": "#e4c47230",
+    "editorBracketPairGuide.background6": "#9e80b330",
+    "editorBracketPairGuide.activeBackground1": "#6da0be60",
+    "editorBracketPairGuide.activeBackground2": "#e4c47260",
+    "editorBracketPairGuide.activeBackground3": "#9e80b360",
+    "editorBracketPairGuide.activeBackground4": "#6da0be60",
+    "editorBracketPairGuide.activeBackground5": "#e4c47260",
+    "editorBracketPairGuide.activeBackground6": "#9e80b360",
     "editorWidget.background": "#1d1b18",
     "editorSuggestWidget.background": "#1d1b18",
     "editorSuggestWidget.border": "#3b3b3b",
@@ -57,6 +76,7 @@
     "panelTitle.activeBorder": "#c07a58",
     "terminal.background": "#272420",
     "terminal.foreground": "#b5b3ae",
+    "terminalCursor.foreground": "#e65825",
     "terminal.ansiBlack": "#1d1b18",
     "terminal.ansiRed": "#c75450",
     "terminal.ansiGreen": "#6f9460",
@@ -303,6 +323,13 @@
       ],
       "settings": {
         "foreground": "#9aa5b1"
+      }
+    },
+    {
+      "name": "Brackets",
+      "scope": ["punctuation.bracket"],
+      "settings": {
+        "foreground": "#6da0be"
       }
     },
     {
